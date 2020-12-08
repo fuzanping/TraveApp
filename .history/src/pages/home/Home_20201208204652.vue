@@ -1,0 +1,26 @@
+<template>
+<div>
+  <home-header></home-header>
+  <home-swiper></home-swiper>
+  <home-icons></home-icons>
+  <>
+</div>
+</template>
+<script>
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/Swiper'
+// eslint-disable-next-line no-unused-vars
+import HomeIcons from './components/Icons'
+import Recommend from './components/Recomment'
+export default {
+  name: 'Home',
+  components: {
+    HomeHeader,
+    HomeSwiper,
+    Recommend
+  }
+}
+</script>
+<style>
+
+</style>
